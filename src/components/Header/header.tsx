@@ -1,6 +1,9 @@
+import Menu from "./menu";
+import "./header.css";
+
 const Header = () => {
     return (
-    <h1>ola</h1>
+    Menu()
 )}
 
 export default Header;
