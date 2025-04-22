@@ -1,7 +1,12 @@
+@import url('https://fonts.googleapis.com/css2?family=Jost:ital,wght@0,100..900;1,100..900&family=Julius+Sans+One&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
 .menu-list {
     display: flex;
     gap: 50px;
     align-items: center;
+}
+
+li {
+    list-style-type: none;
 }
 
 nav.menu-container {
@@ -9,16 +14,25 @@ nav.menu-container {
     align-items: center;
     justify-content: center;
     gap: 50px;
-    background: red;
+    background: #e0d4cf;
     height: 95px;
 }
 
 a {
     text-decoration: none;
+    color: black;
+    font-family: "Julius Sans One", sans-serif;
+    font-weight: 400;
+    font-style: normal;
 }
 
 button {
     border-radius: 20px;
-    height: 32px;
-    width: 130px;
+    height: 40px;
+    width: 140px;
+    background: #d76ca4;
+    border: none;
+    font-family: "Julius Sans One", sans-serif;
+    font-weight: 400;
+    font-style: normal;
 }
