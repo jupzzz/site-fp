@@ -13,7 +13,7 @@ const Menu = () => {
                     <li><a href="/">Áreas de Atuação</a></li>
                     <li><a href="/">Dúvidas</a></li>
                     <li><a href="/">Contato</a></li>
-                    <button><a href="">Agendamentos</a></button>
+                    <button><a href="">AGENDAMENTOS</a></button>
                 </div>
             </ul>
         </nav>
