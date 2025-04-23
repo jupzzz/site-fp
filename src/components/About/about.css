@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Jost:ital,wght@0,100..900;1,100..900&family=Julius+Sans+One&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Quicksand:wght@300..700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Jost:ital,wght@0,100..900;1,100..900&family=Julius+Sans+One&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
 
 .about {
     display: flex;
@@ -8,21 +9,28 @@
 
 .about-container {
     display: flex;
-    width: 80%;
+    width: 77%;
     gap: 64px;
 }
 
 .about img {
-    width: 395px;
+    width: 410px;
 }
 
 h1 {
-    display: flex;
-    justify-content: end;
+    text-align: right;
+    font-family: "Julius Sans One", sans-serif;
+    font-weight: 400;
+    border-bottom: 3px solid pink;
+}
+
+.about-text {
+    font-family: "Jost", sans-serif;
+    font-weight: 300;
 }
 
 .about-text-content {
-    gap: 22px;
     display: flex;
     flex-direction: column;
+    text-align: right;
 }
